@@ -1,0 +1,59 @@
+<!DOCTYPE HTML> <!--# 文件类型是HTML，每一个被尖括号包围的都是一个HTML标签-->
+<!-- 没有斜杠开头是起始标签 -->
+<!-- 有斜杠开头是闭合标签 -->
+<html>
+    <body><!-- body表示主体-->
+        <h1>这是一级标题</h1>
+          <p>这是一段文字</p>
+        <h2>这是一个二级标题</h2>
+        <!-- <br>文字换行 -->
+        <p><b>生命就如暗室</b>，<br><u><i>不妨我明写春诗</i></u>。</p>
+        <!-- <b>粗体，<i>意大利斜体，<u>下划线。-->
+        <!--还可以修改图片高度和宽度等-->
+        <img src="https://www.5tu.cn/attachments/image_files/month_1910/2019010170704111224.jpg"
+        width="500px">
+        <!--不加target=""默认在当前窗口打开链接-->
+        <a href="https://space.bilibili.com/384917597?spm_id_from=333.1007.0.0">我的bilibili主页</a>
+        <!--直接在当前窗口打开链接-->
+        <a href="https://space.bilibili.com/384917597?spm_id_from=333.1007.0.0" target="_self">我的bilibili主页</a>
+        <!--在新窗口中打开链接-->
+        <a href="https://space.bilibili.com/384917597?spm_id_from=333.1007.0.0" target="blank">我的bilibili主页</a>
+
+        <!-- 有序列表-->
+        <ol>
+          <li>语文</li>
+          <li>数学</li>
+        </ol>
+        <!-- 有序列表-->
+        <ul>
+          <li>青菜</li>
+          <li>萝卜</li>
+        </ul>
+
+        <!-- 表格 -->
+        <table border="1" class="data table">  <!-- 表格默认没有边框，<table border="1"> 就会有边框 -->
+          <!-- thead表示表头，表格第一行 -->
+          <thead> <!-- thead中的td写出来是横着的 -->
+            <tr>
+              <td>model1</td>
+              <td>model2</td>
+            </tr>
+          </thead>  <!-- tbody中的td写出来是竖着的 -->
+          <tbody>
+            <tr>
+              <td>111</td>
+              <td>222</td>
+            </tr>
+            <tr>
+              <td>333</td>
+              <td>444</td>
+            </tr>
+          </tbody>
+        </table>
+        <!--class属性-->
+        <!--区分那些段落是文章，那些文本段落是用户评论-->
+        <p class="content">给岁月以文明</p>
+        <p class="content">而不是给文明以岁月</p>
+        <p class="user review">五星好评！</p>
+    </body>
+</html>
